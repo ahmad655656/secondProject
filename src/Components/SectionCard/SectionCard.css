@@ -1,0 +1,33 @@
+.sectionOne{
+    width: 900px;
+    height: 500px;
+    box-shadow: 0px 0px 50px 0px rgb(91, 160, 160);
+    position: relative;
+    padding: 10px 50px;
+}
+.topSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.leftSection{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.rightSection{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 20px;
+}
+.o,
+.t,
+.th{
+    color: orangered;
+}
+.pSlider{
+    font-size: 20px;
+    font-weight: 900;
+}

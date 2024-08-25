@@ -1,0 +1,9 @@
+.flexCard{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin-left: 40px;
+}

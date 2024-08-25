@@ -1,0 +1,63 @@
+
+.rowColumns{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.inner{
+    width: 456px;
+    height: 200px;
+    padding: 20px;
+    background-color: #466;
+    opacity: 0.45;
+    border-radius: var(--border-radius);
+    transition: all 0.5s ease-in-out;
+}
+.inner:hover{
+    opacity: 1;
+}
+.pFlex{
+    font-size: 20px;
+    color: #388;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  .pFlex:hover{
+    color: #255;
+    font-size: 30px;
+  }
+.input{
+    width: 200px;
+    border-radius: var(--border-radius);
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+}
+.h1Inner{
+    font-size: 30px;
+    font-weight: 400;
+    color: orangered;
+    margin-bottom: 30px;
+}
+.send{
+    background-color: #399;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    text-align: center;
+    padding: 7px;
+    transition: all 0.8s;
+    height: 40px;
+    cursor: pointer;
+}
+.send:hover{
+    transform: rotate3d(223, 360, 555, 360deg);
+    scale: 1.5;
+}
+.user{
+    font-size: 50px;
+    font-weight: 500;
+}

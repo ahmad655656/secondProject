@@ -1,0 +1,80 @@
+.sectionFixed{
+    display: flex;
+    flex-direction: column;
+    height: 130vh;
+    width: 100%;
+    gap: 100px;
+}
+.sectionFixed .Top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(235, 93, 12);
+    height: 50vh;
+    margin-top: 100px;
+    position: relative;
+}
+.containersecF{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(235, 93, 12);
+    opacity: 0.85;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.Top .leftSecF{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+    flex: 1;
+    padding-left: 40px;
+}
+.Top .rightSecF{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    flex: 1;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.h1SecFixed{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+}
+.pSecFixed{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    line-height: 50px;
+}
+.buttonSecF{
+    border: 2px solid white;
+    background: none;
+    padding: 30px;
+    border-radius: 60px;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+.buttonSecF:hover{
+    background-color: white;
+    color: black;
+}
+
+.oneBottom{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+}

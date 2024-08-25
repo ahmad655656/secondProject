@@ -1,0 +1,317 @@
+.home {
+  width: 100%;
+  height: 950vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+  align-items: center;
+  overflow: hidden;
+}
+
+.leftRightHome {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  height: 100%;
+  align-items: center;
+  padding: 50px;
+
+  flex-wrap: wrap;
+}
+
+
+.buttonHome {
+  padding: 30px;
+  border: 2px solid #166;
+  background: none;
+  border-radius: 40px;
+  font-size: 30px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.buttonHome:hover {
+  background-color: #267;
+  color: white;
+}
+.leftHome {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 40%;
+  align-items: flex-start;
+  padding-right: 30px;
+  flex: 1;
+}
+.rightHome {
+  width: 30%;
+  text-align: center;
+  align-items: center;
+  background-color: #277;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-right: 185px;
+  border-radius: 20px;
+  padding: 20px 0px;
+  flex: 1;
+}
+.onrFeatured {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputHome {
+  border: none;
+  outline: none;
+  max-width: 70%;
+  font-size: 25px;
+  font-weight: 400;
+}
+.pHome {
+  font-size: 30px;
+  font-weight: 400;
+  color: black;
+}
+.p2Home {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.buttonThreeHome {
+  padding: 5px 10px;
+  border: 2px solid white;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  background: none;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.5s;
+}
+.buttonThreeHome:hover {
+  background-color: white;
+  color: #267;
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+.p3Home {
+  font-size: 20px;
+  font-weight: 700;
+}
+.HomeSecTwo {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  height: 57vh;
+  align-items: center;
+  width: 100%;
+}
+.disFlex {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* .circleAfter::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 20px;
+    border-radius: 50%;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    color: black;
+    border: 2px dashed #244;
+    font-size: 20px;
+} */
+.topcircle {
+  font-size: 60px;
+  font-weight: 900;
+  color: black;
+}
+.buttonHomesecTwo {
+  background: none;
+  color: white;
+  font-size: 25px;
+  border: none;
+}
+.h1HomeTwo {
+  font-size: 50px;
+  font-weight: 900;
+}
+.HomeSecThree {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 1800px;
+  height: 600px;
+  border-radius: var(--border-radius);
+}
+.oneThree,
+.ThreeThree {
+  width: 500px;
+  height: 100%;
+  background-position: center;
+  border-radius: 0px 50px 50px 0px;
+}
+.oneThree {
+  position: relative;
+  border-radius: 50px 0px 0px 50px !important;
+}
+.TwoThree {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: #399;
+  width: 740px;
+  padding: 0px 30px;
+  height: 100%;
+}
+.bottomHThree {
+  display: flex;
+  gap: 50px;
+}
+.span {
+  position: absolute;
+  left: 26%;
+  bottom: 10%;
+  width: 250px;
+  height: 200px;
+  background-color: #155;
+  border-radius: 20px;
+  color: white;
+  padding-top: 80px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+.span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  border-radius: 20px 20px 0px 0px;
+  background-color: #299;
+}
+.twoFeatured {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+}
+.threeFeature {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  height: 700px;
+  justify-content: space-between;
+}
+.leftThreeF,
+.rightThreeF {
+  width: 49%;
+  height: 100%;
+  border-radius: 40px 0px 0px 40px;
+}
+.leftThreeF {
+  background-color: #499;
+}
+.innerLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding: 50px;
+  width: 100%;
+}
+.imageright {
+  width: 100%;
+  border-radius: 0px 40px 40px 0px;
+  height: 100%;
+}
+.titleInner {
+  font-size: 50px;
+  font-weight: 900;
+  color: rgb(255, 122, 74);
+}
+.paraInner {
+  font-size: 30px;
+  font-weight: 800;
+}
+.flexFollwer {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.M {
+  font-size: 70px;
+  font-weight: 800;
+  color: white;
+  letter-spacing: 2px;
+}
+.RecentJobs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+}
+.start {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: left;
+  align-items: start;
+}
+.startH1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+.startP {
+  font-size: 40px;
+  font-weight: 400;
+  width: 800px;
+}
+.HappyCustomers{
+    max-width: 100%;
+    margin-top: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titleHappy{
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 100px;
+}
+.slider{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+    overflow-x: scroll;
+    padding: 50px;
+    position: relative;
+    scrollbar-width: none;
+    border-radius: var(--border-radius);
+}

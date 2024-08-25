@@ -1,0 +1,93 @@
+.containerFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #267;
+    position: sticky;
+    z-index: 2345;
+    width: 100%;
+}
+.leftFooter,
+.leftFooter .one,
+.rightFooter{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+.pFooter{
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.pFooter:hover{
+    color: white;
+}
+.leftFooter{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-left: 30px;
+}
+.leftFooter .two{
+    display: flex;
+    gap: 15px;
+}
+.buttonFooter{
+    background-color: #267;
+    padding: 10px;
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: all 0.9s;
+}
+.buttonFooter:hover{
+    background-color: #299;
+    transform: scale(1.5);
+    box-shadow: 2px 3px 9px 2px #247;
+}
+.rightFooter{
+    display: flex;
+    gap: 150px;
+    width: 30%;
+    flex-wrap: wrap; 
+}
+.rightFooter .one{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.p2Footer{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+.buttonTwo{
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+.buttonTwo:hover{
+    color: black;
+}
+.rightFooter .two{
+    height: 100%;
+    padding: 30px 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #299;
+    transition: all 0.5s;
+}
+.rightFooter .two:hover{
+    background-color: #29e9e9;
+}

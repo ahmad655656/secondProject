@@ -1,0 +1,20 @@
+.containerHome {
+    width: 100%;
+    position: relative;
+    height: 800px;
+    animation: background 5s 0s ease-in-out infinite alternate forwards;
+  }
+  @keyframes background {
+    from {
+      background-position: top;
+    }
+    to {
+      background-position: center;
+    }
+  }
+  .opacity {
+    width: 100%;
+    height: 100%;
+    background-color: #399;
+    opacity: 0.85;
+  }

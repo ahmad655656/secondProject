@@ -1,0 +1,95 @@
+.Card{
+    margin: 50px 0px;
+    width: 190vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    height: 180px;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.Card:hover{
+    box-shadow: 0px 0px 50px 5px #877;
+}
+.imageCard{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px 2px black;
+    padding: 9px;
+}
+.imageCrd{
+    width: 150px;
+    margin-top: 20px;
+    height: 150px;
+    position: absolute;
+    left: 90px;
+}
+.CardLeft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+}
+.rightInLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.h1Featured{
+    font-size: 30px;
+    font-weight: 900;
+}
+.firstButton{
+    padding: 10px 20px;
+    background-color: #244;
+    color: white;
+    font-size: 20px;
+    font-family: 900;
+    cursor: pointer;
+    border: none;
+    border-radius: var(--border-radius);
+    margin: 0px 20px;
+    transition: all 0.5s;
+}
+.firstButton:hover{
+    background-color: orangered;
+}
+.twoButton{
+    padding: 10px 20px;
+    background-color: #499;
+    color: white;
+    font-size: 20px;
+    font-family: 900;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: none;
+    border-radius: var(--border-radius);
+    margin: 0px 20px;
+}
+.twoButton:hover{
+    background-color: orangered;
+}
+.CardRight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+.lastButton{
+    padding: 10px 45px;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 900;
+    border: none;
+    border-radius: var(--border-radius);
+    margin: 0px 20px;
+    transition: all 0.5s;
+}
+.lastButton:hover{
+    background-color: #699;
+}
