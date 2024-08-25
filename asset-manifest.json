@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/secondProject/static/css/main.aff1f300.css",
+    "main.js": "/secondProject/static/js/main.a0681b67.js",
+    "static/js/453.32ec0147.chunk.js": "/secondProject/static/js/453.32ec0147.chunk.js",
+    "static/media/home.jpg": "/secondProject/static/media/home.4242198acdff422fdbc4.jpg",
+    "static/media/About.jpg": "/secondProject/static/media/About.22d0bee99905d4477705.jpg",
+    "static/media/image10.jpg": "/secondProject/static/media/image10.111676fa20b8b03da9e6.jpg",
+    "static/media/image4.jpg": "/secondProject/static/media/image4.e0e0807a2584af73ca8e.jpg",
+    "static/media/image5.jpg": "/secondProject/static/media/image5.14e2dfd92405867ec012.jpg",
+    "static/media/image6.jpg": "/secondProject/static/media/image6.68a0fbc1425bc0696c61.jpg",
+    "static/media/image9.jpg": "/secondProject/static/media/image9.8644d55b83eba6b5ed77.jpg",
+    "static/media/image14.jpg": "/secondProject/static/media/image14.a8951b95148b41d537b1.jpg",
+    "static/media/image12.jpg": "/secondProject/static/media/image12.f8c816a4907573b1d774.jpg",
+    "static/media/image13.jpg": "/secondProject/static/media/image13.b8ffb42b74f67057f96d.jpg",
+    "static/media/image11.jpg": "/secondProject/static/media/image11.019ccfd55ace8ce8ffd3.jpg",
+    "static/media/image8.jpg": "/secondProject/static/media/image8.aef500dd076f03937ccd.jpg",
+    "static/media/sectionFixed.jpg": "/secondProject/static/media/sectionFixed.76ab844c4c39c89a18fd.jpg",
+    "static/media/image3.jpg": "/secondProject/static/media/image3.92548082ab708a3fd91d.jpg",
+    "static/media/microsoft.png": "/secondProject/static/media/microsoft.0921c0c99208dce0635f.png",
+    "static/media/logo.png": "/secondProject/static/media/logo.7b81976b3f25c9f58f8d.png",
+    "static/media/image18.jpg": "/secondProject/static/media/image18.d0cd02963520129ae29d.jpg",
+    "static/media/image16.jpg": "/secondProject/static/media/image16.8bf98b84b6ae809e3309.jpg",
+    "static/media/meta.png": "/secondProject/static/media/meta.d69cb74d75713772046d.png",
+    "static/media/image17.jpg": "/secondProject/static/media/image17.9ce0e1d3ad42a30b7fbd.jpg",
+    "static/media/image7.png": "/secondProject/static/media/image7.4af985074f08785b0aee.png",
+    "static/media/image20.jpg": "/secondProject/static/media/image20.2ddc9c78f770fdadecd3.jpg",
+    "static/media/google.png": "/secondProject/static/media/google.cadee8cdb0c0afb1a713.png",
+    "static/media/image19.jpg": "/secondProject/static/media/image19.4c971544c247a89b5cf5.jpg",
+    "static/media/paypal.png": "/secondProject/static/media/paypal.25b341e7e8db7bd5e1e5.png",
+    "index.html": "/secondProject/index.html",
+    "main.aff1f300.css.map": "/secondProject/static/css/main.aff1f300.css.map",
+    "main.a0681b67.js.map": "/secondProject/static/js/main.a0681b67.js.map",
+    "453.32ec0147.chunk.js.map": "/secondProject/static/js/453.32ec0147.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aff1f300.css",
+    "static/js/main.a0681b67.js"
+  ]
+}
